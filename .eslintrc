@@ -6,6 +6,9 @@
     "env": {
         "browser": true
     },
+    "plugins": [
+        "react-hooks"
+    ],
     "rules": {
         "array-bracket-spacing": [
             "error",
@@ -65,7 +68,6 @@
             "error",
             120
         ],
-        "no-console": "warn",
         "no-else-return": [
             "error",
             {
@@ -75,7 +77,7 @@
         "no-magic-numbers": [
             "warn",
             {
-                "ignore": [0, 1],
+                "ignore": [0, 1, -1],
                 "ignoreArrayIndexes": true
             }
         ],
@@ -93,7 +95,7 @@
         ],
         "quotes": [
             "error",
-            "single"
+            "double"
         ],
         "semi": [
             "error",
@@ -124,6 +126,8 @@
                 "words": true
             }
         ],
-        "valid-jsdoc": "error"
+        "valid-jsdoc": "error",
+        "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+        "react-hooks/exhaustive-deps": "warn" // Checks effect dependencies
     }
 }
