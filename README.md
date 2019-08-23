@@ -19,6 +19,6 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### `npm run deploy`
 
-Deploys the app to GitHub Pages using the gh-pages branch.
-See the [documentation](https://create-react-app.dev/docs/deployment#github-pages-https-pagesgithubcom)for more information.
+Deploys the app to GitHub Pages using the gh-pages branch.<br>
+See the [documentation](https://create-react-app.dev/docs/deployment#github-pages-https-pagesgithubcom) for more information.
 
