@@ -3,7 +3,7 @@ import { render, unmountComponentAtNode } from "react-dom";
 import { act } from "react-dom/test-utils";
 import App from "./App";
 
-let container = null;
+let container: HTMLDivElement;
 beforeEach(() => {
     // setup a DOM element as a render target
     container = document.createElement("div");
@@ -14,7 +14,6 @@ afterEach(() => {
     // cleanup on exiting
     unmountComponentAtNode(container);
     container.remove();
-    container = null;
 });
 
 it("renders without crashing", () => {
