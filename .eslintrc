@@ -60,10 +60,6 @@
                 "before": true
             }
         ],
-        "linebreak-style": [
-            "error",
-            "windows"
-        ],
         "max-len": [
             "error",
             120

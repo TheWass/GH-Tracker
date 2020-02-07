@@ -23,7 +23,7 @@ class App extends React.Component {
                         >
                         Learn React
                         </a>
-                        <Button></Button>
+                        <Button>Settings</Button>
                     </header>
                 </div>
             </React.Fragment>
